@@ -14,8 +14,6 @@ Make sure you have the following installed:
 
 ---
 
-## **Backend Setup (Express.js + Prisma + MySQL)**
-
 ## **Frontend Setup (Next.js)**
 
 ### **1. Install Frontend Dependencies**
@@ -43,13 +41,6 @@ Next.js app should now be running at `http://localhost:3000`
 
 ```
 
----
 
-### **1. Run the application server**
-```sh
-npm run start
-```
-
----
 
 
