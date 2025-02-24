@@ -16,13 +16,18 @@ Make sure you have the following installed:
 
 ## **Frontend Setup (Next.js)**
 
-### **1. Install Frontend Dependencies**
+### **Clone the Repository**
 ```sh
-cd ../frontend
+git clone https://github.com/Ema1thReD/nooro-ui.git
+cd nooro-ui
+```
+
+### **Install Frontend Dependencies**
+```sh
 npm install
 ```
 
-### **2. Run the Frontend**
+### **Run the Frontend**
 ```sh
 npm run dev
 ```
@@ -32,12 +37,15 @@ Next.js app should now be running at `http://localhost:3000`
 
 ## **Project Structure**
 ```
-/frontend
+/nooro-ui
+  ├── public
   ├── app/               # Tailwind CSS styles
-    ├── components/           # Reusable UI components
-    ├── config/           # Static data
-    ├── task/           # Task pages[Create, Update]
-    ├── types/           # Types of variables
+  │  ├── components/     # Reusable UI components
+  │  ├── config/         # Static data
+  │  ├── task/           # Task pages[Create, Update]
+  │  ├── types/          # Types of variables
+  ├── package.json
+
 
 ```
 
